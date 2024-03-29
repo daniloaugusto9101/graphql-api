@@ -3,7 +3,7 @@ const { ApolloServer, gql } = require("apollo-server");
 
 const allTypes = require("./schema/types"); //importação de todos os types
 const allQuerys = require("./schema/queries"); //importação de todas aas querys
-// const surveyResolver = require("./schema/resolvers/surveyResolver"); //importação de todas aas resolvers
+// const surveyResolver = require("./schema/resolvers/surveyResolver"); //importação de todas as resolvers
 
 // Defina o schema GraphQL
 const typeDefs = gql`

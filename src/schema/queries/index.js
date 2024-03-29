@@ -1,9 +1,10 @@
 const { gql } = require("apollo-server");
+const surveyQuery = require("./surveyQuery");
+const optionQuery = require("./optionQuery");
 
 const allQuerys = gql`
-  type Query {
-    survey: [Survey!]!
-  }
+  ${surveyQuery}
+  ${optionQuery}
 `;
 
 module.exports = allQuerys;
