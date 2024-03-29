@@ -12,3 +12,5 @@ const typeDefs = gql`
     options: [Option!]!
   }
 `;
+
+module.exports = optionQuery;
