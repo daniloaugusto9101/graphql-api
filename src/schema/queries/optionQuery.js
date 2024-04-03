@@ -2,7 +2,7 @@ const { gql } = require("apollo-server");
 
 const optionQuery = gql`
   type Query {
-    option: [Option!]!
+    option: [Option]
   }
 `;
 

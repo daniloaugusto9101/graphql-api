@@ -4,8 +4,11 @@ const { gql } = require("apollo-server");
 const optionType = gql`
   type Option {
     id: String
-    title: String!
-    votes: String!
+    title: String
+    votes: String
+  },
+  input OptionInput {
+    title: String
   }
 `;
 
