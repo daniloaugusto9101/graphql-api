@@ -16,6 +16,10 @@ const surveyMutation = gql`
             options: [OptionInput]!
         ): Survey
         deleteSurveyById(id: String!): String
+        voteSurveyById(
+            id: String!
+            optionId: String!
+        ): Survey
     }
 `;
 

@@ -11,6 +11,7 @@ const resolvers = {
     createSurvey: Surveys.createSurvey,
     updateSurveyById: Surveys.updateSurveyById,
     deleteSurveyById: Surveys.deleteSurveyById,
+    voteSurveyById: Surveys.voteSurveyById,
   }
 };
 
