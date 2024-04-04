@@ -1,29 +1,11 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "builds": [
-    {
-      "src": "index.js/dist/index.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles":[
-          "public/dist/**"
-        ]
-      }
-    }
-  ],
-  "routes":[
-    {
-      "src": "/(.*)",
-      "dest": "public/dist/index.js"
-    }
-  ],
   "description": "",
-
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
